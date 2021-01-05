@@ -1,0 +1,32 @@
+.CreateNote {
+  position: -webkit-sticky;
+  position: sticky;
+  top:0;
+
+}
+#form-wrapper {
+  border-bottom: 1px solid;
+  background-color: #fff;
+  padding: 40px;
+  -webkit-box-shadow: 0px 11px 16px 1px rgba(0,0,0,0.2); 
+  box-shadow: 0px 11px 16px 1px rgba(0,0,0,0.2);
+}
+
+.flex-wrapper {
+  display: flex;
+}
+
+#submit {
+  margin-left: 5px;
+  width: 100px;
+}
+
+#title {
+  cursor: pointer;
+  width: 100%;
+}
+
+#title:hover{
+  background-color:rgb(241, 248, 241);  
+}
+ 

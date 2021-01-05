@@ -1,0 +1,14 @@
+body {
+  background: rgb(0,212,255);
+  background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(54,122,187,1) 47%, rgba(0,212,255,1) 100%);
+}
+
+#task-container {
+  max-width: 600px;
+  margin: 100px auto;
+  box-shadow: -1px 11px 24px 6px rgba(115, 115, 115, 0.68);
+  background-color: #fff;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
