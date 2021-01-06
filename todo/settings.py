@@ -132,7 +132,7 @@ STATICFILES_DIRS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'django-react-test-application.herokuapp.com'
+    'https://django-react-test-application.herokuapp.com'
 ]
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
