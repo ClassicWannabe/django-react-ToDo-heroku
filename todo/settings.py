@@ -25,7 +25,7 @@ SECRET_KEY = 'e_()4m!^xwmjmgb4wp%u66_6algk6ul=k_*uctlv_%cblz_ctp'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['django-react-todo-application.herokuapp.com','127.0.0.1','django-react-test-application.herokuapp.com']
+ALLOWED_HOSTS = ['django-react-todo-application.herokuapp.com','127.0.0.1']
 
 
 # Application definition
@@ -88,7 +88,7 @@ DATABASES = {
 
 import dj_database_url
 
-DATABASES['default'] = dj_database_url.config(default='postgres://olbqhdyzwdslly:fe0b955f921f8e90a30a3df81a71e222d85be61a4465a60414369603acbb2cd1@ec2-3-251-0-202.eu-west-1.compute.amazonaws.com:5432/d6dfo2sagqu6jj', conn_max_age=600)
+DATABASES['default'] = dj_database_url.config(default='postgres://xdkurbnqhqrtgf:8ec4f2aea1f55578edd34f3efc5f5492a0d91a1ca05182d0163d26fdd9d10830@ec2-52-211-161-21.eu-west-1.compute.amazonaws.com:5432/d4eri53kbmcf49', conn_max_age=600)
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
@@ -134,7 +134,7 @@ STATICFILES_DIRS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'https://django-react-test-application.herokuapp.com'
+    'https://django-react-todo-application.herokuapp.com'
 ]
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
